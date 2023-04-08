@@ -31,6 +31,7 @@ img{
 
 button{
         cursor: pointer;
+
 }
 .visually-hidden {
         position: absolute;
@@ -74,8 +75,9 @@ color: var(--primary-brand);
         letter-spacing: 0.02em;
 }
 .menu{
+        gap: 40px;
         font-style: normal;
-                                margin-left: auto;
+        margin-left: auto;
 }
 .list {
         list-style: none;
@@ -154,7 +156,8 @@ margin-right: 24px;
 margin-right: 40px;
 } */
 .header-nav{
-        gap: 40px;
+
+padding: 24p;
 }
 .header-nav {
         font-weight: 500;
@@ -213,6 +216,7 @@ margin-right: 40px;
 }
 
 .hero-text {
+        max-width: 496px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -222,7 +226,6 @@ margin-right: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 496px;
         margin-bottom: 48px;
         margin-left: auto;
         margin-right: auto;
@@ -232,7 +235,9 @@ margin-right: 40px;
         background-color: var(--light);
 }
 .order-service-bt {
-        width: 169px;
+        border: none;
+        min-width: 169px;
+        height: 56px;
         font-family: inherit;
         font-weight: 500;
         color: var(--white-background);
@@ -243,7 +248,7 @@ margin-right: 40px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
-        display: flex;
+                display: block;
                 flex-direction: row;
                 align-items: flex-start;
         padding: 16px 32px;
@@ -258,6 +263,7 @@ margin-left: auto;
 /* hero */
 /* 1 sec */
 .first-sec-content{
+        gap: 24px;
         display: flex;
         flex-direction: row;
 }
@@ -268,6 +274,14 @@ margin-left: auto;
         margin-right: 24px;
 }
 /* 1 sec */
+/* 2 sec */
+.second-sec-content{
+        gap: 24px;
+}
+/* 3sec */
+.third-sec-content{
+        gap: 24px;
+}
 /* /MAIN INDEX */
 /* MAIN PORTFOLIO */
 .filter-btn {
