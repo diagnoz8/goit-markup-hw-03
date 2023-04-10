@@ -125,9 +125,13 @@ margin-right: 24px;
           letter-spacing: 0.03em;
           text-transform: uppercase;
           color: var(--primary-brand);
-        margin-right: 76px;
 display: inline-block;
-margin-bottom: 16px;
+  }
+  .ft-properties .logo{
+        margin-bottom: 16px;
+  }
+.header .logo{
+                margin-right: 76px;
   }
 
   .logo-studio {
