@@ -150,6 +150,7 @@ margin-right: 24px;
 .header-content{
         display: flex;
         flex-direction: row;
+        padding: 24p;
         align-items: center;
     
 }
@@ -164,6 +165,7 @@ padding: 24p;
         color: var(--dark);
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 .header-nav:hover,
 .header-nav:focus {
