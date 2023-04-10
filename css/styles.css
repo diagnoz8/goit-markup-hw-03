@@ -26,9 +26,10 @@ img{
 .section{
       
         padding-top: 120px;
+}
+section:last-child{
         padding-bottom: 120px;
 }
-
 button{
         cursor: pointer;
 
@@ -81,14 +82,14 @@ color: var(--primary-brand);
 }
 .list {
         list-style: none;
-        letter-spacing: 0.02em;
-                                display: flex;
+        display: flex;
+        /* letter-spacing: 0.02em;
+                                
                                 flex-direction: row;
-                                flex-wrap: wrap;
+                                flex-wrap: wrap; */
 }
 .list-item{
 background-color: var(--white-background);
-margin-right: 24px;
 }
 .hsecond-text {
         font-style: normal;
@@ -109,7 +110,6 @@ margin-right: 24px;
         letter-spacing: 0.02em;
         color: var(--dark);
         margin-bottom: 8px;
-        text-align: center;
 }
 .card-content{
         padding-top: 32px;
@@ -152,24 +152,19 @@ display: inline-block;
         .header{
         box-sizing: border-box;
         border-bottom: 1px solid var(--accent);
-        padding-top: 24px;
-        padding-bottom: 24px;
+        
         
         }
 .header-content{
         display: flex;
         flex-direction: row;
-        padding: 24p;
         align-items: center;
     
 }
-/* .header-nav:not(last-child){
-margin-right: 40px;
-} */
-.header-nav{
-padding: 24p;
-}
+
+
 .header-nav {
+        display: block;
         font-weight: 500;
         color: var(--dark);
         line-height: 1.5;
@@ -183,11 +178,11 @@ padding: 24p;
 .link-address {
         letter-spacing: 0.02em;
         color: var(--text);
+        display: block;
+                padding: 24px 0;
 
 }
-.link-address:not(last-child){
-margin-right: 40px;
-}
+
 
 .link-address:hover,
 .link-address:focus {
@@ -206,10 +201,10 @@ margin-right: 40px;
 }
 
 .footer-text {
+        line-height: 1.5;
         color: var(--light);
         letter-spacing: 0.02em;
         width: 264px;
-        margin-top: 8px;
 }
 
 /* /FOOTER */
@@ -234,9 +229,7 @@ margin-right: 40px;
         text-align: center;
         color: var(--white-background);
         letter-spacing: 0.02em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
         margin-bottom: 48px;
         margin-left: auto;
         margin-right: auto;
@@ -276,7 +269,6 @@ margin-left: auto;
 
 .first-sec-content{
         display: flex;
-        flex-direction: row;
                 gap: 24px;
 }
 .first-sec-content-item{
@@ -299,7 +291,10 @@ margin-left: auto;
         border-radius: 0px 0px 4px 4px;
         padding-left: 16px;
         padding-right: 16px;
-        width: calc((100% - 72px) / 4);
+        text-align: center;
+}
+.li-card-index{
+                width: calc((100% - 72px) / 4);
 }
 
 /* /MAIN INDEX */
@@ -311,7 +306,6 @@ margin-left: auto;
 .filter-btn {
   
         background-color: var(--light);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
         font-family: inherit;
         font-weight: 500;
@@ -347,17 +341,15 @@ gap: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--text);
-        text-align: center;
 }
 .portfolio-card-list{
+        flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
 }
 
 
-.project-cards:not(:nth-last-child(-n+3)){
-        margin-bottom: 48px;
-}
+
 .card-content-portfolio{
         padding: 32px 16px;
         border: 1px solid var(--accent);
