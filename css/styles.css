@@ -150,13 +150,13 @@ margin-right: 24px;
 .header-content{
         display: flex;
         flex-direction: row;
+        align-items: center;
     
 }
 /* .header-nav:not(last-child){
 margin-right: 40px;
 } */
 .header-nav{
-
 padding: 24p;
 }
 .header-nav {
