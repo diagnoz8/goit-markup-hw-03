@@ -273,9 +273,9 @@ margin-left: auto;
 .first-sec-content{
         display: flex;
         flex-direction: row;
+                gap: 24px;
 }
 .first-sec-content-item{
-        gap: 24px;
        width: 264px; 
 }
 
@@ -283,6 +283,7 @@ margin-left: auto;
 /* 2 sec */
 .second-sec-content{
         gap: 24px;
+        
 }
 /* 3sec */
 .third-sec-content{
