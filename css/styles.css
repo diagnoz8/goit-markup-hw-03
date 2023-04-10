@@ -26,7 +26,7 @@ img{
 
 .section{
         padding-top: 120px;
-                padding-bottom: 120px;
+        padding-bottom: 120px;
 }
 
 button{
@@ -144,10 +144,11 @@ margin-bottom: 16px;
 
 /* HEADER */
         .header{
-                box-sizing: border-box;
-                border-bottom: 1px solid var(--accent);
+        box-sizing: border-box;
+        border-bottom: 1px solid var(--accent);
         padding-top: 24px;
         padding-bottom: 24px;
+        
         }
 .header-content{
         display: flex;
@@ -266,17 +267,16 @@ margin-left: auto;
 }
 /* hero */
 /* 1 sec */
+
 .first-sec-content{
-        gap: 24px;
         display: flex;
         flex-direction: row;
 }
 .first-sec-content-item{
+        gap: 24px;
        width: 264px; 
 }
-.first-sec-content-item:not(:last-child){
-        margin-right: 24px;
-}
+
 /* 1 sec */
 /* 2 sec */
 .second-sec-content{
