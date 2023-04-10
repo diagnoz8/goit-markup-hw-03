@@ -124,7 +124,8 @@ margin-right: 24px;
           text-transform: uppercase;
           color: var(--primary-brand);
         margin-right: 76px;
-      
+display: inline-block;
+margin-bottom: 16px;
   }
 
   .logo-studio {
@@ -133,6 +134,7 @@ margin-right: 24px;
   }
 
   .logo-studio-sec {
+
           width: 71px;
           color: var(--light);
                 letter-spacing: 0.02em;
