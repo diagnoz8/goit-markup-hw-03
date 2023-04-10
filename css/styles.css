@@ -109,10 +109,12 @@ margin-right: 24px;
         letter-spacing: 0.02em;
         color: var(--dark);
         margin-bottom: 8px;
+        text-align: center;
 }
 .card-content{
         padding-top: 32px;
         padding-bottom: 32px;
+        
 }
   /*  logo */
   .logo {
@@ -286,6 +288,12 @@ margin-left: auto;
 .third-sec-content{
         gap: 24px;
 }
+.card-index{
+        border-radius: 0px 0px 4px 4px;
+        padding-left: 16px;
+        padding-right: 16px;
+}
+
 /* /MAIN INDEX */
 /* MAIN PORTFOLIO */
 .portfolio-section{
@@ -331,8 +339,12 @@ gap: 24px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--text);
+        text-align: center;
 }
-
+.portfolio-card-list{
+        column-gap: 24px;
+        row-gap: 48px;
+}
 
 
 .project-cards:not(:nth-last-child(-n+3)){
